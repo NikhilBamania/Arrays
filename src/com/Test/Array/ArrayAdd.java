@@ -10,11 +10,9 @@ public class ArrayAdd {
 		int bn = num(b);
 		sum = an + bn;
 		System.out.println(sum);
-
 	}
 	
-	public static int num(int a[])
-	{
+	public static int num(int a[]){
 		int sum = 0;
 		for(int i=0; i<a.length; i++)
 		{
@@ -23,5 +21,4 @@ public class ArrayAdd {
 		}
 		return sum;
 	}
-
 }
